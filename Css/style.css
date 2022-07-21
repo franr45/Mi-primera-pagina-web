@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+ima, 
+svg{
+    vertical-align: middle;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+
+body{
+    background-image: url(../imagenes/donny-jiang-42gFAgdIUC8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    
+}
+header{
+    background-image: url(../imagenes/donny-jiang-42gFAgdIUC8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    
+}
+
+
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+.nav__list{
+    margin-left: 1.5rem;
+}
+.nav__item{
+    margin-left: 1.5rem;
+}
+
+.nav__link{
+   color: #09bcdb;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav__link:hover,
+.nav__link:focus{
+    opacity: 0.65;
+}
+
+#intro-section{
+    padding: 8rem 0 0 0;
+   
+
+}
+
+.display-2{
+    text-transform: capitalize;
+    color: #09bcdb;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+.display-2-intro{
+    font-weight: 700;
+    display: inline-block;
+}
+.display-2-description{
+font-size: 1.4rem;
+display: inline-block;
+margin-top: 1.5rem;
+}

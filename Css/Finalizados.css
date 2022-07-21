@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    max-width: 100%;
+}
+ima,
+svg{
+    vertical-align: middle;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+body{
+    background-image: url(../imagenes/white.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    
+}
+header{
+    background-image: url(../imagenes/aspi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+.nav__list{
+    margin-left: 1.5rem;
+}
+
+.nav__item{
+    margin-left: 1.5rem;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: hsl(187, 84%, 75%);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav__link:hover,
+.nav__link:focus{
+    opacity: 0.65;
+}
+#Finalizados{
+    padding: 8rem 0 0 0;
+}
+
+.card{
+    margin: 2rem;
+    max-width: 300px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px --10px rgb(34, 32, 32);
+
+}
+.card--ligth{
+background: #eee; 
+
+}
+.card--ligth{
+    background: #eee;   
+}
